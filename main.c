@@ -51,6 +51,7 @@ int main ( int argc, const char * argv[])
     } else {
         fprintf( stderr, "CGGetOnlineDisplayList returned error code %d\n",
                  ( int )err );
+        return ( int )err;
     }
 
     
